@@ -19,4 +19,7 @@ plt.scatter(x_train,y_train,color='red')
 plt.plot(x_train,regressor.predict(x_train),color='blue')
 plt.show()
 
+mae=mean_absolute_error(y_test,y_pred)
+mse=mean_squared_error((y_test,y_pred)
+rmse=np.sqrt(mse)
 
